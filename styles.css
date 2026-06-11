@@ -118,6 +118,7 @@ header.scrolled {
 .logo span {
   background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -230,6 +231,7 @@ section {
   letter-spacing: -0.5px;
   background: linear-gradient(to right, var(--text-main) 40%, rgba(255,255,255,0.7));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -316,6 +318,7 @@ section {
   margin-bottom: 1.5rem;
   background: linear-gradient(135deg, #ffffff 30%, #a5b4fc 70%, var(--color-primary) 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
